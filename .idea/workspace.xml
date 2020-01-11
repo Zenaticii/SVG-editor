@@ -4,11 +4,15 @@
 <<<<<<< HEAD
     <list default="true" id="75df1f26-91b8-4574-93eb-0135a2574e9a" name="Default Changelist" comment="" />
 =======
+<<<<<<< HEAD
+    <list default="true" id="75df1f26-91b8-4574-93eb-0135a2574e9a" name="Default Changelist" comment="" />
+=======
     <list default="true" id="75df1f26-91b8-4574-93eb-0135a2574e9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/style/style.css" afterDir="false" />
     </list>
 >>>>>>> 254e00d0c6fdf3578fb57b1f4946d913b96039ba
+>>>>>>> 3393009c90b163c1ba00b975742912888bb7eed4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,12 +72,16 @@
       <workItem from="1578774600375" duration="2303000" />
       <workItem from="1578776957452" duration="243000" />
 <<<<<<< HEAD
+      <workItem from="1578777419150" duration="2633000" />
+=======
+<<<<<<< HEAD
       <workItem from="1578777419150" duration="49000" />
       <workItem from="1578778943278" duration="329000" />
       <workItem from="1578779289445" duration="599000" />
 =======
       <workItem from="1578777419150" duration="1916000" />
 >>>>>>> 254e00d0c6fdf3578fb57b1f4946d913b96039ba
+>>>>>>> 3393009c90b163c1ba00b975742912888bb7eed4
     </task>
     <task id="LOCAL-00001" summary="da">
       <created>1578777482022</created>

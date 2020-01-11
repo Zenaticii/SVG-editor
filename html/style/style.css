@@ -27,7 +27,7 @@ svg {
 
 
 svg rect {
-    /*fill: red;*/
+    fill: red;
     stroke: black;
 }
 
