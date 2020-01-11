@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="75df1f26-91b8-4574-93eb-0135a2574e9a" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="75df1f26-91b8-4574-93eb-0135a2574e9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/style/style.css" afterDir="false" />
+    </list>
+>>>>>>> 254e00d0c6fdf3578fb57b1f4946d913b96039ba
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,16 +67,41 @@
       <updated>1578774597930</updated>
       <workItem from="1578774600375" duration="2303000" />
       <workItem from="1578776957452" duration="243000" />
+<<<<<<< HEAD
       <workItem from="1578777419150" duration="49000" />
       <workItem from="1578778943278" duration="329000" />
       <workItem from="1578779289445" duration="599000" />
+=======
+      <workItem from="1578777419150" duration="1916000" />
+>>>>>>> 254e00d0c6fdf3578fb57b1f4946d913b96039ba
     </task>
+    <task id="LOCAL-00001" summary="da">
+      <created>1578777482022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578777482022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="message">
+      <created>1578778920328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578778920328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="da" />
+    <MESSAGE value="message" />
+    <option name="LAST_COMMIT_MESSAGE" value="message" />
+  </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="361" y="72" key="#Notifications" timestamp="1578778579890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -85,6 +117,14 @@
     <state x="640" y="224" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578778806559" />
     <state x="369" y="112" key="SettingsEditor" timestamp="1578779255424">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state x="489" y="84" key="CommitChangelistDialog2" timestamp="1578778919511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="84" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578778919511" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1578777447701">
+      <screen x="0" y="0" width="1920" height="1040" />
+>>>>>>> 254e00d0c6fdf3578fb57b1f4946d913b96039ba
     </state>
     <state x="369" y="112" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578779255424" />
     <state x="461" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578777447701" />
