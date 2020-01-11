@@ -12,20 +12,31 @@
 <h1>Editor SVG</h1>
 </center>
 <!--<canvas id="editor" width="700" height="500" style="border:1px solid #000000;">-->
-<svg id="editor">
+<div class="grid-container">
+    <div class="grid-item grid-item-1">
 
-    <g id="elemente">
+    </div>
+    <div class="grid-item grid-item-2">
+            <svg id="editor" class="grid-item grid-item-2">
 
-    </g>
-    <g id="contents">
-        <rect onclick="addrect(evt)"/>
-    </g>
-    <!--<rect x="1" y="1" style="fill:#bbffbb" width="598" height="398" />-->
+                <g id="elemente">
 
-    <rect id="selectie"
-          x="100" y="200" width="220" height="200">
-    </rect>
-</svg>
+                </g>
+                <g id="contents">
+                    <rect onclick="addrect(evt)"/>
+                </g>
+                <!--<rect x="1" y="1" style="fill:#bbffbb" width="598" height="398" />-->
+
+                <rect id="selectie"
+                      x="100" y="200" width="220" height="200">
+                </rect>
+            </svg>
+    </div>
+
+    <div class="grid-item grid-item-3">
+
+    </div>
+</div>
 
 
 
