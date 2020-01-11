@@ -53,6 +53,7 @@ svg #selectie {
     grid-row: span 4;
     grid-column: span 1;
     background-color: aqua;
+    width: 1024px;
 
 }
 
