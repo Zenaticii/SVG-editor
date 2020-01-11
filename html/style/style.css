@@ -37,3 +37,8 @@ svg #selectie {
     stroke: black;
     /*stroke-dasharray: 3,3;*/
 }
+
+svg #contents {
+    margin-top: 5%;
+
+}
