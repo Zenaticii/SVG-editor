@@ -33,32 +33,24 @@ svg #selectie {
 }
 
 .grid-container {
-     display: grid;
-     grid-template-columns: 100px 100px;
-     grid-auto-rows: minmax(100px, auto);
-     grid-gap: 5%;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 100px 50% 100px; /*Make the grid smaller than the container*/
+    grid-template-rows: 500%;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: black;
  }
 
 .grid-item-1 {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row: span 2;
-    grid-column: span 1;
     background-color: crimson;
 }
 
 .grid-item-2 {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row: span 4;
-    grid-column: span 1;
     background-color: aqua;
 
 }
 
 .grid-item-3 {
-    grid-column-start: 3;
-    grid-row: span 2;
-    grid-column: span 1;
     background-color: indigo;
 }
