@@ -12,7 +12,6 @@ h1 {
     margin-bottom: 0px;
     padding: 0px;
     font-style:oblique;
-    /*hello*/
 }
 
 
@@ -30,8 +29,8 @@ svg {
 
 svg rect {
     fill: red;
-    opacity: 0.2;
-    /*stroke: navy;*/
+    /*opacity: 0.2;*/
+    stroke: black;
     /*stroke-opacity: 0.5;*/
     padding:2px;
     border-color:blue;
@@ -39,7 +38,7 @@ svg rect {
 
 svg #selectie {
     fill: transparent;
-    stroke-width: 3px;
+    stroke-width: 2px;
     stroke: black;
     /*stroke-dasharray: 3,3;*/
 }
