@@ -65,26 +65,3 @@ function setareCoordonate(elem, x1, y1, x2, y2) {
     elem.setAttributeNS(null, 'height', Math.abs(y1 - y2));
 }
 
-function addrect(evt) {
-    var svgobj = evt.target;
-    var svgdoc = svgobj.getOwnerDocument();
-    var newnode = svgobj.cloneNode(false);
-    svgstyle = newnode.getStyle();
-    var colors = ['red', 'blue', 'yellow', 'cyan', 'green', 'lime', 'magenta', 'brown', 'azure',
-        'burlywood', 'blueviolet', 'crimson'];
-    var x = 10 + 480 * Math.random();
-    var y = 10 + 330 * Math.random();
-    var width = 10 + 100 * Math.random();
-    var height = 10 + 50 * Math.random();
-    var fill = Math.floor(colors.length * Math.random());
-    if (fill === colors.length) fill = colors.length - 1;
-    fill = colors[fill];
-    svgstyle.setProperty('opacity', 0.3 + 0.7 * Math.random());
-    svgstyle.setProperty('fill', fill);
-    newnode.setAttribute('x', x);
-    newnode.setAttribute('y', y);
-    newnode.setAttribute('width', width);
-    newnode.setAttribute('height', height);
-    var contents = svgdoc.getElementById('contents');
-    newnode = contents.appendChild(newnode);
-}
