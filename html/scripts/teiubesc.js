@@ -65,3 +65,18 @@ function setareCoordonate(elem, x1, y1, x2, y2) {
     elem.setAttributeNS(null, 'height', Math.abs(y1 - y2));
 }
 
+function drawCircle() {
+    let svgns = "http://www.w3.org/2000/svg",
+        container = document.getElementById('cont');
+    for (let x = 0; x < 500; x += 50) {
+        for (let y = 0; y < 300; y += 50) {
+            const circle = document.createElementNS(svgns, 'circle');
+            circle.setAttributeNS(null, 'cx', x);
+            circle.setAttributeNS(null, 'cy', y);
+            circle.setAttributeNS(null, 'r', 50);
+            circle.setAttributeNS(null, 'style', 'fill: none; stroke: blue; stroke-width: 1px;' );
+            container.appendChild(circle);
+        }
+    }
+}
+document.getElementById('circle').addEventListener("click",drawCircle);
