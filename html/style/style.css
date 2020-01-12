@@ -7,11 +7,11 @@ html, body {
 }
 
 h1 {
-    background-color: dodgerblue;
-    /*margin-top: 0px;*/
-    /*margin-bottom: 0px;*/
+    background-color: crimson;
+    color: white;
     padding: 0px;
     font-style:oblique;
+    width: 200px;
 }
 
 svg {
@@ -59,4 +59,16 @@ button {
     width: 50px;
     height: 50px;
     margin-top: 10px;
+}
+
+#Supreme {
+    background-image: url('https://fontmeme.com/permalink/200112/7ceeda9a553aa731ec64aba57d8122dd.png');
+    height: 99px;
+    width: 430px;
+}
+
+#Supreme:hover {
+    background-image: url('https://fontmeme.com/permalink/200112/a36efebd709428bdf6c6fb754a780184.png');
+    height: 119px;
+    width: 348px;
 }
